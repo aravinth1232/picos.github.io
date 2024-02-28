@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <h1>Branch</h1>
+<select name="Branch" id="select">
+    <option value="select">select</option>
+</select>
+
+    <script >
+        
+    let a =["EEE","Civil", "Mech","Aero"]
+    let select =document.getElementById("select")
+    a.forEach((i) => {
+    const option =document.createElement("option")
+    option.innerHTML =option.id = option.value= i
+    select.appendChild(option)
+// console.log(opt)
+    })
+
+    </script>
+</body>
+</html>
